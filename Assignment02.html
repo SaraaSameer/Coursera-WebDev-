@@ -1,0 +1,119 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Assignment 02</title>
+        <meta name="view port" content="width=device-width ,initial-scale= 1.0">
+        <style>
+            *
+            {
+                box-sizing: border-box;
+               
+            }
+              /*body
+              {                 
+                   width:960 px;
+              }*/
+              .First ,.Second, .Third
+              {
+                  width: 31%;
+                  border: 2px solid Black;
+                  padding:10px;
+                  padding-top:20px;
+                  float:left;
+                  margin:10px;
+                  background-color: gray;
+              }
+              .Chicken
+              {
+                
+                float:right;
+                margin:0px;
+                margin-top:-20px;
+                margin-right:-12px;
+                border: 2px solid black;
+                text-align: center;
+                padding: 2px 5px;
+                background-color:pink;
+                width: 150px;
+              }
+              .Beef
+              {
+                float:right;
+                margin:0px;
+                margin-top:-20px;
+                margin-right:-12px;
+                border: 2px solid black;
+                text-align: center;
+                padding: 2px 5px;
+                background-color:red;
+                color:white;
+                width: 150px;
+              }
+              .Sushi
+              {
+                float:right;
+                margin:0px;
+                margin-top:-20px;
+                margin-right:-12px;
+                border: 2px solid black;
+                text-align: center;
+                padding: 2px 5px;
+                background-color:yellow;
+                width:150px;
+              }
+              h2
+              { 
+                  text-align: center;
+                  margin-bottom:5%;      
+              }
+            @media (min-width: 768px) and (max-width: 991px)
+            /*@media  (min-width: 900px)*/
+            {
+                .First
+                {
+                    width: 48%;
+
+                }
+                .Second
+                {
+                    margin-left:2px;
+                    width:48%;
+                }
+                .Third
+                {
+                    width: auto;
+                    
+
+                }
+            }
+            @media  (max-width: 767px)
+            /*@media screen and (min-width:600px)*/
+            {
+                .First ,.Second ,.Third
+                {
+                    width:100%;
+                    margin-left:0px;
+                    margin-top:10px;
+                   
+                    
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>Our Menu</h2>
+        <div class="First">
+            <h4 class="Chicken"><b>Chicken</b></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        </div>
+        <div class="Second">
+            <h4 class="Beef">Beef</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        </div>
+        <div class="Third">
+            <h4 class="Sushi">Sushi</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        </div>
+    </body>
+</html>
