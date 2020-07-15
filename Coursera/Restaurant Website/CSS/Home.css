@@ -1,0 +1,90 @@
+           div>img
+          	{
+          	width:8000px;
+          	margin-top:-5px;
+            }
+          #Menu-Set,#Special-Set,#Map-Set
+          {
+            position:relative;
+            width:100%;
+            margin-left:6px;    /*Margin Top and Left are optional*/
+            margin-top:20px;
+            margin-bottom:25px;
+            border:2px solid black;
+            height:200px;
+          }
+          #Menu-Set:hover,#Special-Set:hover,#Map-Set:hover
+          {
+            box-shadow: 2px 2px 15px silver;
+          }
+          #Menu-Set
+          {
+            background-image: url(Menu.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+          #Special-Set
+          {
+            background-image: url(Special.jpg);
+            background-repeat: no-repeat;
+            background-position: center;     
+          }
+          #Menu-Set span, #Special-Set span, #Map-Set span
+          {
+            font-size: 25px;
+            position:absolute;
+            bottom:0px;
+            right:0px;
+            text-align: center;
+            text-transform: uppercase;
+            color:white;
+            width:100%;
+            background-color: black;
+            opacity:0.8;
+          }
+    
+          @media (min-width:992px)
+          {
+            div>img
+            {
+            margin-left:30px;
+            }
+          }
+          @media (min-width:768px)
+          {
+            div>img
+            {
+            margin-left:20px;
+            }
+          }
+          @media (min-width:576px) 
+          {
+            div>img
+            {
+            margin-left:5px;
+         
+            }
+            #Menu-Set
+            {
+            background-size: 730px 195px;
+            }
+          #Special-Set
+            {
+            background-size: 740px 195px;
+            }
+          }
+          @media (max-width:575px) 
+          {
+            div>img
+            {
+            margin-left:4px;
+            }
+            #Menu-Set
+            {
+            background-size: 520px 175px;
+            }
+          #Special-Set
+            {
+            background-size: 560px 185px;
+            }
+          }
