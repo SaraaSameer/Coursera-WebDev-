@@ -46,14 +46,11 @@ h3
 	background-color: grey;
 	margin-right: 8px;
 	margin-left: 8px;
-	height:660px;
-	line-height: 25px;
 
 }
 p
 {
 	color:black;
 	font-size:15px;
-	margin-top: 25px;
+	padding:10px 15px;
 }
-
